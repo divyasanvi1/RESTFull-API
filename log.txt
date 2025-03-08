@@ -1,0 +1,38 @@
+1741431428134: GET : /api/users1741431493794: GET : /api/users
+1741431505974: DELETE : /api/users/6
+
+1741431682897: DELETE : /api/users/6
+
+1741431692876: GET : /api/users
+
+1741431977373: ::1: GET : /api/users
+
+1741434791396: ::1: GET : /api/users
+
+1741435274809: ::1: GET : /api/users
+
+1741436372187: ::1: GET : /api/users
+
+1741436412375: ::1: GET : /api/users
+
+1741436418666: ::1: DELETE : /api/users/8
+
+1741436421864: ::1: GET : /api/users
+
+1741437143714: ::1: POST : /api/users
+
+1741437464615: ::1: GET : /api/users/20000
+
+1741437485856: ::1: GET : /api/users/8
+
+1741437489357: ::1: GET : /api/users/9
+
+1741437494563: ::1: GET : /api/users
+
+1741437507063: ::1: DELETE : /api/users/7
+
+1741437509919: ::1: GET : /api/users
+
+1741437526276: ::1: GET : /api/users
+
+1741437528701: ::1: GET : /api/users

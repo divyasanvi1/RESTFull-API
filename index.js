@@ -16,7 +16,15 @@ const PORT=8000;
 
  //Middleware
 app.use(express.urlencoded({extended:false}));
+app.use((req,res,next)=>{
+    console.log("Hello From middleware 1");
+    fs.appendFile("./log.txt",`\n${Date.now()}: ${req.ip}: ${req.method} : ${req.path}\n`,(err,data)=>{
+        next();
+    })
+    
+})
 app.get("/api/users",(req,res)=>{// need server restart
+   res.setHeader("X-MyName","Divya");// Always add X to custom Header
     fs.readFile("./MOCK_DATA.json","utf8",(err,data)=>{
         if(err)
         {
@@ -38,6 +46,7 @@ app.get("/api/users/:id",(req,res)=>{
         else{
             const users=JSON.parse(data)
             const user=users.find((user)=>user.id===id)
+            if(!user) return res.status(404).json( {err:"User Not Found"})
             return res.json(user);
         }
     })
@@ -46,9 +55,13 @@ app.get("/api/users/:id",(req,res)=>{
 app.post("/api/users",(req,res)=>{
    const body=req.body;
    console.log("Body",body);
+   if(!body || !body.first_name || !body.last_name || !body.email || !body.gender || !body.job_title)
+   {
+     return res.status(400).json({msg:"All fiels are mandatory"})
+   }
    users.push({...body,id:users.length+1});
    fs.writeFile("./MOCK_DATA.json",JSON.stringify(users),(err)=>{
-    return res.json({status:"sucess", id:users.length});
+    return res.status(201).json({status:"sucess", id:users.length});
    })
 })
 
