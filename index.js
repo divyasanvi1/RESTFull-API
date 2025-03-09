@@ -1,5 +1,6 @@
 const express=require("express")
 const users=require("./MOCK_DATA.json")
+const mongoose=require("mongoose");
 const fs=require("fs")
 const app=express();
 
@@ -13,6 +14,31 @@ const PORT=8000;
 //     `;
 //     res.send(html)
 //  })
+
+const userSchema=new mongoose.Schema({
+    firstName:{
+        type:String,
+        required:true,
+    },
+    lastName:{
+        type:String,
+    },
+    email:{
+        type:String,
+        required:true,
+        unique:true,
+    },
+    JobTitle:{
+        type:String,
+    },
+    Gender:{
+        type:String,
+    }
+})
+
+const User=mongoose.model("user",userSchema);
+
+
 
  //Middleware
 app.use(express.urlencoded({extended:false}));
