@@ -1,3 +1,3 @@
 Schema- define structure
-  Schema-Model
+ using Schema we make Model
   using model we can do crud operation

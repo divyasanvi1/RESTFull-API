@@ -36,3 +36,165 @@
 1741437526276: ::1: GET : /api/users
 
 1741437528701: ::1: GET : /api/users
+
+1741486751641: ::1: PATCH : /api/users
+
+1741486787655: ::1: PATCH : /api/users
+
+1741486860372: ::1: PATCH : /api/users
+
+1741486899516: ::1: POST : /api/users
+
+1741487095656: ::1: POST : /api/users
+
+1741487257133: ::1: POST : /api/users
+
+1741487429710: ::1: POST : /api/users
+
+1741487941937: ::1: GET : /
+
+1741487950814: ::1: GET : /api/users
+
+1741487975383: ::1: GET : /users
+
+1741488064036: ::1: GET : /api/users
+
+1741488368070: ::1: GET : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488570558: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488576360: ::1: GET : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488591222: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488595095: ::1: GET : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488637688: ::1: GET : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488765965: ::1: GET : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488771527: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488774737: ::1: GET : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488781064: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488788753: ::1: GET : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488797126: ::1: GET : /api/users
+
+1741488804488: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488828538: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488831761: ::1: GET : /api/users
+
+1741488899588: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741488902801: ::1: GET : /api/users
+
+1741488904401: ::1: GET : /api/users
+
+1741489016594: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741489023010: ::1: GET : /api/users
+
+1741489303568: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741489452531: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741489456292: ::1: GET : /api/users
+
+1741489516815: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741489630573: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741489709946: ::1: PATCH : /api/users/:67ccfc9978f5d707cfab6ef7
+
+1741489856418: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741490005588: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741490011203: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741490142418: ::1: PATCH : /api/users/67ccfd45171e78b2a214ab4f
+
+1741490178656: ::1: PATCH : /api/users/67ccfd45171e78b2a214ab4f
+
+1741490218435: ::1: PATCH : /api/users/67ccfd45171e78b2a214ab4f
+
+1741490283326: ::1: PATCH : /api/users/67ccfc9978f5d707cfab6ef7
+
+1741490294973: ::1: GET : /api/users
+
+1741490404499: ::1: POST : /api/users
+
+1741490444397: ::1: POST : /api/users
+
+1741490450101: ::1: GET : /api/users
+
+1741490498159: ::1: PATCH : /api/users/67cd090c6b410aaca22d88c6
+
+1741490768172: ::1: PATCH : /api/users/67cd090c6b410aaca22d88c6
+
+1741490771111: ::1: GET : /api/users
+
+1741490843269: ::1: GET : /api/users
+
+1741490846552: ::1: PATCH : /api/users/67cd090c6b410aaca22d88c6
+
+1741490911072: ::1: PATCH : /api/users/67cd090c6b410aaca22d88c6
+
+1741490917527: ::1: GET : /api/users
+
+1741491213381: ::1: DELETE : /api/users/67cd090c6b410aaca22d88c6
+
+1741491362313: ::1: DELETE : /api/users/67cd090c6b410aaca22d88c6
+
+1741491366295: ::1: GET : /api/users
+
+1741495974259: ::1: POST : /api/users
+
+1741496759261: ::1: GET : /users
+
+1741496760627: ::1: GET : /users
+
+1741496761092: ::1: GET : /users
+
+1741496761325: ::1: GET : /users
+
+1741496761520: ::1: GET : /users
+
+1741496768450: ::1: GET : /users
+
+1741496769993: ::1: GET : /users
+
+1741496770909: ::1: GET : /users
+
+1741496771141: ::1: GET : /users
+
+1741496771340: ::1: GET : /users
+
+1741496804265: ::1: GET : /users
+
+1741497112510: ::1: GET : /users
+
+1741498232725: ::1: GET : /api/users
+
+1741498240584: ::1: GET : /
+
+1741498246355: ::1: GET : /users
+
+1741498294605: ::1: GET : /api/user
+
+1741498308113: ::1: GET : /user
+
+1741498342567: ::1: POST : /api/users
+
+1741498349189: ::1: POST : /user
+
+1741498361771: ::1: GET : /user/67ccfc9978f5d707cfab6ef7
+
+1741498375287: ::1: DELETE : /users/67ccfc9978f5d707cfab6ef7
+
+1741498379684: ::1: DELETE : /user/67ccfc9978f5d707cfab6ef7
